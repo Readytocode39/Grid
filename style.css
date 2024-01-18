@@ -60,3 +60,38 @@
 .container3 {
     display: flex;
 }
+header {
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+}
+#icon{
+    height: 50x;
+    width: auto;
+
+}
+.content {
+    grid-area: content;
+
+}
+.sidebar{
+    grid-area: sidebar;
+}
+body {overflow-x: hidden;
+
+    margin: 0;}
+main {
+    display: grid;
+    grid-template-areas: "";
+
+}
+.title {
+    margin-bottom: 10px;
+    text-align: center;
+}
